@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "DeXSMP.aternos.me",
-    "port": 51815,
+    "ip": "46.224.46.226",
+    "port": 25962,
     "version": "1.21.1"
   },
   "position": {
@@ -19,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "DeXSMP"
     },
     "anti-afk": {
       "enabled": true,
@@ -37,8 +37,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
+    "auto-reconnect-delay": 200,
+    "max-reconnect-delay": 200,
     "periodic-rejoin": {
       "enabled": true,
       "min-interval": 20,
@@ -69,7 +69,7 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
